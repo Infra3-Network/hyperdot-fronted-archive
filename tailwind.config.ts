@@ -7,7 +7,11 @@ export default {
     './node_modules/@tremor/**/*.{js,ts,jsx,tsx,mdx}'
   ],
   theme: {
-    extend: {}
+    extend: {
+      
+    }
   },
-  plugins: []
+  plugins: [
+    // require('daisyui')
+  ],
 } satisfies Config;
